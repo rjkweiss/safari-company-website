@@ -1,0 +1,172 @@
+body {
+    font-family:"Hind Siliguri", sans-serif;
+    background-color: #E8ECE6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Quicksand", sans-serif;
+}
+.navbar {
+    background-image: linear-gradient(to right, #3B5C0E, #87C255);
+    border: 2px solid #3B5C0E;
+    display: flex;
+    gap: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.company-info {
+    width: 40%;
+    color: #F6FFF2;
+}
+.company-info h2 {
+    margin: 0;
+    padding-left: 15px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #F6FFF2;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+.img {
+    margin-top: 20px;
+}
+img {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.page-1-header {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    color: #3B5C0E;
+    font-size: 36px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    line-height: 4.0rem;
+}
+.emph-text {
+   font-style: italic;
+   font-family: "Playwrite DE SAS", cursive;
+   font-size: 44px;
+}
+.text-area {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+.text-area h3 {
+    display: flex;
+    justify-content: center;
+}
+.text-area-header {
+    display: flex;
+    justify-content: center;
+}
+
+/* page 2 Styling */
+.main-container {
+    margin-top: 50px;
+    width: 630px;
+    margin-left: 25%;
+}
+.main-container div {
+    margin: 10px 0;
+}
+fieldset {
+    border-color: #3B5C0E;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+}
+.names input, .contact-info input{
+    display: block;
+    width: 300px;
+    height: 28px;
+    border: 1.5px solid #3B5C0E;
+    background-color: #E8ECE6;
+}
+.communication-preferance input[type="radio"] {
+    accent-color: #3B5C0E;
+}
+.communication-preferance p {
+    margin: 0;
+}
+.preferences {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.email-comm, .phone-comm {
+    margin: 0 !important;
+}
+textarea {
+    display: block;
+    width: 100%;
+    border: 2px solid #3B5C0E;
+    background-color: #E8ECE6;
+}
+.submit-button {
+    text-align: center;
+}
+.submit-button button {
+    background-color: #3B5C0E;
+    color: #F6FFF2;
+    width: 120px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1.5px solid #3B5C0E;
+    font-size: 14px;
+}
+    /* Primary: Bowser Shell */
+    /* --primary-100: #F6FFF2;
+    --primary-200: #D8FDC5;
+    --primary-300: #B5ED90;
+    --primary-400: #87C255;
+    --primary-500: #476E1E;
+    --primary-600: #3B5C0E;
+    --primary-700: #314A07;
+    --primary-800: #283804;
+    --primary-900: #1D2603; */
+
+    /* Accent: Blue-Eyed Boy */
+    /* --accent-100: #F2F6FF;
+    --accent-200: #BFD4FE;
+    --accent-300: #89B6F9;
+    --accent-400: #5299EC;
+    --accent-500: #1F7BD1;
+    --accent-600: #0B64A6;
+    --accent-700: #024F7C;
+    --accent-800: #003851;
+    --accent-900: #001D26; */
+
+    /* Neutral */
+    /* --neutral-100: #FBFCFA;
+    --neutral-200: #E8ECE6;
+    --neutral-300: #D6DBD3;
+    --neutral-400: #C5CBC0;
+    --neutral-500: #B4BAAD;
+    --neutral-600: #90958A;
+    --neutral-700: #6D7067;
+    --neutral-800: #494B44;
+    --neutral-900: #252622; */

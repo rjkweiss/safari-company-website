@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Playwrite+DE+SAS:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+        </style>
+        <title>Bountiful Luxury Safaris</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="company-info">
+                <h2>Bountiful Safaris</h2>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="booking-inquiry.html"> Book Your Stay</a>
+                <a href="/popular-experiences">Popular Experiences</a>
+                <a href="/destinations">Destinations</a>
+            </div>
+        </div>
+        <div class="main-container">
+            <!-- form -->
+            <form action="/submit inquiry">
+                <fieldset>
+                    <legend>Plan My Trip</legend>
+                    <!-- name fields -->
+                    <div class="names">
+                        <div class="first-name">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="first-name" id="firstName">
+                        </div>
+                        <div class="last-name">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="last-name" id="lastName">
+                        </div>
+                    </div>
+                    <!-- email field & phone -->
+                    <div class="contact-info">
+                        <div class="email">
+                            <label for="email">Email Address:</label>
+                            <input type="email" name="email-address" id="email">
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" name="phone-number" id="phone">
+                        </div>
+                    </div>
+                    <!-- radio button for preferred method of communication  -->
+                    <div class="communication-preferance">
+                        <p>Do you have a communication preference?</p>
+                        <div class="preferences">
+                            <div class="email-comm">
+                                <input type="radio" name="email-comm" id="emailComm">
+                                <label for="emailComm">Email</label>
+                            </div>
+                            <div class="phone-comm">
+                                <input type="radio" name="phone-comm" id="phoneComm">
+                                <label for="phoneComm">Phone</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- text area for which destinations -->
+                    <div class="ideal-vacation">
+                        <label for="idealVacation">What is your Ideal Vacation?</label>
+                        <textarea name="ideal-vacation" id="idealVacation" rows="5"></textarea>
+                    </div>
+                    <!-- text area for activities, additional comments -->
+                    <div class="other-comments">
+                        <label for="additionalComments">Additional Comments:</label>
+                        <textarea name="additional-comments" id="additionalComments" rows="5"></textarea>
+                    </div>
+                        <!-- sign up for marketing materials-->
+                    <div class="marketing-email-sign-up">
+                        <input type="checkbox" id="marketingEmails" name="marketing-emails">
+                        <label for="marketingEmails">Sign up to receive our marketing emails and promotional content</label>
+                    </div>
+                    <!-- submit button -->
+                    <div class="submit-button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
